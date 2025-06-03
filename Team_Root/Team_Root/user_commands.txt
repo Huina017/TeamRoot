@@ -1,0 +1,20 @@
+cat user_commands.txt 
+vim user_log_tool.sh 
+./user_log_tool.sh 
+cat popular_commands.txt 
+cd TeamRoot/Team_Root/Team_Root/
+./user_log_tool.sh 
+cat user_commands.txt 
+cat popular_commands.txt 
+cat logged_users.txt 
+cat system_status.txt 
+cat top_CPU.txt 
+cd TeamRoot/Team_Root/Team_Root/
+ls
+rm logged_users.txt 
+rm system_status.txt 
+rm user_commands.txt 
+rm popular_commands.txt 
+rm top_CPU.txt 
+ls
+exit

@@ -1,0 +1,5 @@
+   2 ls
+   2 cd TeamRoot/Team_Root/Team_Root/
+   2 cat user_commands.txt 
+   2 cat popular_commands.txt 
+   2 ./user_log_tool.sh 

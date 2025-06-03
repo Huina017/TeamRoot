@@ -1,0 +1,2 @@
+hanhina    console      Jun  4 03:25
+hanhina    pts/1        Jun  4 06:07	(192.168.126.1)

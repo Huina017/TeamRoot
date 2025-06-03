@@ -18,12 +18,12 @@ read choice
 
 case $choice in
 	1)
-	tail -20 ~/.bash_history > user_commands.txt
+	cat ~/.bash_history | tail -20 > user_commands.txt
 	echo "저장완료 "
 	;;
 
 	2) 
-	uniq -c user_commands.txt | sort -r | head -n 5 > popular_commands.txt
+	cat user_commands.txt | sort | uniq -c | sort -nr | head -5 > popular_commands.txt
 	echo "저장완료 "
 	;;
 
